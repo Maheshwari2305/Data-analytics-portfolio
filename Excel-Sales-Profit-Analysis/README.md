@@ -1,7 +1,4 @@
 
-- Profitability analysis by discount levels can be added
-- Planned enhancements using Power BI and Tableau# Ecommerce Sales Analysis – Excel Dashboard
-
 ## Project Overview
 This project analyzes an eCommerce sales dataset using Microsoft Excel to
 identify sales trends, customer performance, and category-level insights.
@@ -15,6 +12,12 @@ The dataset contains transactional eCommerce data with the following columns:
 - Region, State, City, Postal Code
 - Product ID, Category, Sub-Category, Product Name
 - Sales, Quantity, Discount, Profit
+
+## Data Cleaning & Preparation
+- Removed duplicate records to ensure data accuracy  
+- Converted raw data into structured Excel tables  
+- Validated and corrected data types for all columns  
+- Added filters to enable efficient slicing and analysis  
 
 ## Tools Used
 - Microsoft Excel
