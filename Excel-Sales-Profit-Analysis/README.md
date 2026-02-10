@@ -37,12 +37,14 @@ The dataset contains transactional eCommerce data with the following columns:
 - Sales by category and sub-category
 - Top customers by revenue
 - Category-wise order volume
+- Sales by segement using pie chart 
 - Regional and state-level filtering using slicers
 
 ## Dashboard Features
 - KPI summary cards
 - Monthly sales trend chart
 - Sales by category visualization
+- Sales by segement visualization
 - Interactive slicers for State, City, and Quarter
 
 ## Business Insights
@@ -50,6 +52,7 @@ The dataset contains transactional eCommerce data with the following columns:
 - Technology contributes higher profit compared to Furniture
 - Sales peak during specific months indicating seasonal demand
 - A small set of customers contribute significantly to total revenue
+- Half of all sales (50%) are driven by the Consumer segment.
 
 ## Limitations & Future Enhancements
 - Dashboard design can be further refined
