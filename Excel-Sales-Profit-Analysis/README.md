@@ -1,4 +1,6 @@
-# Ecommerce Sales Analysis – Excel Dashboard
+
+- Profitability analysis by discount levels can be added
+- Planned enhancements using Power BI and Tableau# Ecommerce Sales Analysis – Excel Dashboard
 
 ## Project Overview
 This project analyzes an eCommerce sales dataset using Microsoft Excel to
@@ -48,6 +50,4 @@ The dataset contains transactional eCommerce data with the following columns:
 
 ## Limitations & Future Enhancements
 - Dashboard design can be further refined
-- Profitability analysis by discount levels can be added
-- Planned enhancements using Power BI and Tableau
 
