@@ -6,9 +6,11 @@ I am an aspiring Data Analyst with hands-on experience in Excel, SQL, and basic 
 focused on transforming raw data into meaningful business insights through structured analysis and reporting.
 
 ## Skills
-- Excel (Data Cleaning, Pivot Tables, Dashboards)
-- SQL (Basic Data Analysis & Querying)
-- Python (Basics: data handling, logic building)
+- Excel (Advanced analysis, Pivot Tables, Dashboards)
+- SQL (Data querying & analysis)
+- Python (Basics – currently learning advanced concepts)
+- Power Query (Data transformation)
+- Power BI & Tableau (Currently learning)
 - Business Analysis & Data Storytelling
 
 ## Currently Learning
@@ -17,8 +19,10 @@ focused on transforming raw data into meaningful business insights through struc
 - Tableau (Dashboard Design & Reporting)
 
 ## Projects
-1. Excel Sales & Profit Analysis
-2. Customer & Order Analysis (SQL – in progress)
+1. Ecommerce Sales Analysis (Excel)
+   - Sales trends, KPIs, and interactive dashboard using Excel
+2. SQL Customer & Order Analysis (In Progress)
+3. Power BI / Tableau Dashboards (Planned)
 
 Each project includes:
 - Dataset
