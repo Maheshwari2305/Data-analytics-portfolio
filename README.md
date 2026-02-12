@@ -21,7 +21,7 @@ focused on transforming raw data into meaningful business insights through struc
 ## Projects
 1. Ecommerce Sales Analysis (Excel)
    - Sales trends, KPIs, and interactive dashboard using Excel
-2. SQL Customer & Order Analysis (In Progress)
+2.Ecommerce Sales Analysis — SQL (Completed Core Analysis)
 3. Power BI / Tableau Dashboards (Planned)
 
 Each project includes:
