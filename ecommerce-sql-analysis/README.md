@@ -83,6 +83,19 @@ Excel was used initially for data exploration, while SQL was used for scalable, 
 
 ---
 
+## Key Insights
+
+- Total revenue reached $2.3M with $286K profit across 5,009 orders.
+- Overall profit margin improved from 10.2% (2018) to over 13% in later years.
+- Technology was the most profitable category.
+- Furniture had high sales but low profit margins.
+- The West region generated the majority of revenue and profit.
+- The Central region was unprofitable.
+- The Consumer segment contributed the highest revenue.
+- The Home Office segment had the highest average order value.
+- Several high-revenue products were operating at a loss.
+- Furniture had the highest average discount rate, impacting margins.
+
 ## Visualization Layer
 Power BI and Tableau dashboards are currently in progress using this SQL data model.
 
