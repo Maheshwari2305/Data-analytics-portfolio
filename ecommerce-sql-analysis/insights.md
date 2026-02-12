@@ -18,8 +18,6 @@ The business generated approximately $2.3M in revenue with an overall profit mar
 2. Monthly Sales & Profit Trends
 ------------------------------------------------------------
 
-(Refer to query output for detailed monthly breakdown.)
-
 Insight:
 Monthly aggregation allows tracking seasonality and identifying peak revenue months. This enables better inventory planning, promotional timing, and forecasting.
 
@@ -38,8 +36,6 @@ Profit margins improved significantly after 2018, peaking in 2020. Slight margin
 ------------------------------------------------------------
 4. Revenue Contribution of Top 10 Customers
 ------------------------------------------------------------
-
-(Refer to query result for exact percentage.)
 
 Insight:
 Revenue is partially concentrated among top customers. This indicates both opportunity (strong key accounts) and risk (customer concentration dependency). Retention strategies are critical.
