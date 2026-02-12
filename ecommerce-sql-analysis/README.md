@@ -8,6 +8,37 @@ This project analyzes ecommerce sales data using SQL to generate business insigh
 ## Database Design
 The dataset was normalized into a star-schema structure for reliability, performance, and analytical flexibility.
 
+---
+
+## Data Ingestion & Normalization Process
+
+The original dataset was provided in Excel format and imported into MySQL using command-line utilities for efficient bulk loading instead of manual insertion.
+
+### Step 1: Raw Data Staging
+All records were first loaded into a staging table called `orders_raw`.  
+This staging layer preserves the original dataset structure and acts as a landing zone before transformation.
+
+### Step 2: Data Normalization
+The raw dataset contained repeated customer and product information across rows.  
+To eliminate redundancy and ensure relational integrity, the data was normalized into:
+
+- `customers` (dimension table)
+- `products` (dimension table)
+- `orders` (fact table)
+
+### Why Normalization?
+- Reduces data redundancy
+- Improves query performance
+- Ensures referential integrity through foreign keys
+- Enables scalable analytics and BI integration
+- Follows star-schema design best practices used in data warehousing
+
+This structured approach mirrors real-world ETL workflows used in production data environments.
+
+---
+
+## Data Model
+
 ### Fact Table
 - orders(order_id, order_date, ship_date, ship_mode, sales, profit, quantity, discount, customer_id, product_id)
 
@@ -57,18 +88,9 @@ Power BI and Tableau dashboards are currently in progress using this SQL data mo
 
 ---
 
-## Key Business Insights (Sample)
-- A small group of customers contributes disproportionately to total revenue.
-- Technology category generates higher profit margins compared to Furniture.
-- Sales exhibit seasonal spikes during specific months.
-- Certain regions underperform despite high order volumes, indicating pricing or discount strategy issues.
-
----
-
 ## Next Enhancements
 - Build interactive Power BI dashboards using this SQL backend
 - Add advanced analytics using subqueries and window functions
 - Create SQL views for reusable reporting layers
 - Implement stored procedures for automation and scalability
 - Add indexing strategy for performance optimization
-
