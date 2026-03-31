@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maheshwari | Data Analyst</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #020617;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#2563eb,#9333ea);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* BUTTON */
+.btn {
+    background: #22c55e;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CENTER */
+.center {
+    text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<header>
+<h1>Hi, I'm Maheshwari 👋</h1>
+<p>Data Analyst | SQL | Excel | Power BI</p>
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+<a href="https://github.com/YOUR-USERNAME" target="_blank" class="btn">GitHub</a>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+<p>
+I analyze data to uncover insights, identify trends, and support better business decisions.
+Skilled in SQL, Excel, and Power BI for data analysis and visualization.
+</p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="grid">
+
+<!-- Project 1 -->
+<div class="card">
+<h3>Excel Sales Profit Analysis</h3>
+
+<img src="Dashboard/ecommerce-dashboard.png">
+
+<p><b>Problem:</b> Identify profit trends.</p>
+<p><b>Tools:</b> Excel</p>
+<p><b>Result:</b> Improved KPI visibility.</p>
+
+<a href="https://github.com/YOUR-USERNAME/Excel-Sales-Profit-Analysis" target="_blank" class="btn">View Code</a>
+</div>
+
+<!-- Project 2 -->
+<div class="card">
+<h3>E-commerce SQL Analysis</h3>
+
+<p><b>Problem:</b> Analyze customer data.</p>
+<p><b>Tools:</b> SQL</p>
+<p><b>Result:</b> Found purchasing trends.</p>
+
+<a href="https://github.com/YOUR-USERNAME/ecommerce-sql-analysis" target="_blank" class="btn">View Code</a>
+</div>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills</h2>
+
+<div class="grid">
+<div class="card">SQL</div>
+<div class="card">Excel</div>
+<div class="card">Power BI</div>
+<div class="card">Power Query</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact</h2>
+
+<div class="center">
+<p>Email: your email</p>
+
+<a href="https://linkedin.com/in/YOUR-ID" class="btn">LinkedIn</a>
+<a href="https://github.com/YOUR-USERNAME" class="btn">GitHub</a>
+</div>
+
+</section>
+
+</body>
+</html>
